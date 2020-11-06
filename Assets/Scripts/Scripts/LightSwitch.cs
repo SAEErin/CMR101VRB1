@@ -30,7 +30,8 @@ public class LightSwitch : MonoBehaviour
             ourLight.intensity = 0;
             lightIsOn = false;
             myHUD.text = "light off";
-        } else
+        }
+        else
         {
             //light is off, so turn it on
             ourLight.intensity = 1;
